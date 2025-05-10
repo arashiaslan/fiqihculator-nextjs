@@ -12,7 +12,7 @@ export default function Home() {
         <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
           <div className="container flex h-16 items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="font-bold text-2xl text-emerald-600 dark:text-emerald-400">SinaFiq</div>
+              <div className="font-bold text-2xl text-emerald-600 dark:text-emerald-400">FiqhKulator</div>
               <span className="text-sm text-muted-foreground">Kalkulator Zakat & Warisan Islam</span>
             </div>
             <nav className="hidden md:flex items-center gap-6">
@@ -34,7 +34,7 @@ export default function Home() {
         </header>
         <main className="container py-8">
           <section className="mb-12 text-center">
-            <h1 className="text-4xl font-bold tracking-tight mb-4">Selamat Datang di SinaFiq</h1>
+            <h1 className="text-4xl font-bold tracking-tight mb-4">Selamat Datang di FiqhKulator</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Kalkulator zakat dan warisan Islam yang mudah digunakan untuk membantu Anda menghitung kewajiban finansial
               sesuai syariat.
@@ -57,7 +57,7 @@ export default function Home() {
         <footer className="border-t py-6 md:py-0">
           <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
             <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} SinaFiq. Hak cipta dilindungi.
+              &copy; {new Date().getFullYear()} FiqhKulator. Hak cipta dilindungi.
             </p>
             <div className="flex items-center gap-4">
               <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
